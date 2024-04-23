@@ -1,0 +1,628 @@
+*{
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+  
+}
+
+html, body {
+  height: 100%;
+  width:  100%;
+}
+body{
+    background-color: #F1F2F4;
+}
+
+/* header work star */
+
+.navbar{
+    height: 90px;
+    background-color: #FEFEFE;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+/* navbar box 1 logo work start */
+
+.nav-logo{
+    height: 75px;
+    width: 140px;
+}
+
+.logo{
+    background-image: url(/images/fk_logo.png);
+    background-size: cover;
+    height: 75px;
+    width: 140px;
+   
+}
+
+/* navbar box 1 logo work end */
+
+/* navbar box 2 search bar work start */
+
+.nav-search{
+    background-color: #F0F5FF;
+    display: flex;
+    align-items: center;
+    height: 46px;
+    width: 530px;
+    border-radius: 12px;
+    
+}
+.search-icon {
+
+    height: 40px;
+    width: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+
+.search-icon i{
+    font-size: 24px;
+    color: #808488;
+    
+    
+}
+
+.nav-search input{
+    height: 40px;
+    width: 370px;
+    background-color: #F0F5FF;
+    font-size: 20px;
+    border: none;
+    margin: 4px;
+    
+}
+
+/* navbar box 2 search bar work end */
+
+/* navbar box 3 login work start */
+
+.nav-login{
+    height: 50px;
+    width: 135px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.user-icon{
+   font-size: 25px;
+   margin-right: 10px;
+}
+
+.arrow-icon{
+    margin-left: 10px;
+    font-size: 12px;
+}
+
+span{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.nav-login:hover{
+
+    background-color: #2A55E5;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.arrow-icon i:hover{
+
+    transform: rotate(180deg);
+    transition-duration: 0.5s;
+}
+
+/* navbar box 3 login work end */
+
+
+/* navbar box 4 cart work start */
+
+.nav-cart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cart-icon{
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.cart-text{
+    font-size: 20px;
+    font-weight: 400px;
+}
+
+/* navbar box 4 cart work end */
+
+
+/* navbar box 5 store work start */
+
+.nav-store{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #111112;
+}
+
+.store-icon{
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.store-text{
+    font-size: 20px;
+    font-weight: 400px;
+}
+
+/* navbar box 5 store work end */
+
+/* navbar box 6 dotes work start */
+.nav-dotes{
+    height: 42px;
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dotes{
+
+    font-size: 20px;
+    color: #111112;
+}
+
+.nav-dotes:hover{
+    height: 42px;
+    width: 60px;
+    background-color: #FAFAFA;
+    border: 1px solid black;
+    border-radius: 10px;
+
+}
+
+/* navbar box 6 dotes work end */
+
+.hero-section-box1{
+  height: 160px;
+  width: 97%;
+  background-color: #fff;
+ margin: auto;
+ margin-top: 10px;
+ display: flex;
+ justify-content: space-evenly;
+ 
+
+   
+} 
+
+/* work for hero section 1  start */
+
+.hero-box{
+    height: 160px;
+    width: 130px;
+    padding: 32px;
+    text-align: center;
+    
+}
+
+
+/* work for boxes without arrow */
+
+.hero-img{
+    background-image: url(/images/Grocery.jpg);
+    background-size: cover;
+    height: 68px;
+    width: 68px;
+      
+}
+
+img{
+    height: 75px;
+    width: 70px;
+      
+}
+
+.hero-text p{
+    font-size: 19px;
+    font-weight:lighter;
+    margin-top: 5px;
+    
+}
+
+/* work for boxes without arrow end*/
+
+
+/* work for boxes with arrow */
+
+.hero-box-arrow{
+    height: 160px;
+    width: 130px;
+    padding: 32px;
+    
+   
+}
+
+.hero-text-fashion{
+    font-size: 19px;
+    font-weight:lighter;
+    display: flex; 
+    justify-content: center;  
+    
+}
+
+.hero-text-fashion i{
+    font-size: 14px;
+    margin-top: 3px;
+    margin-left: 5px;
+    font-weight: 700;
+}
+
+.arr-icon i:hover{
+
+    transform: rotate(180deg);
+    transition-duration: 0.5s;
+}
+
+/* work for boxes with arrow end */
+
+/* work for hero section 1  end */
+
+
+
+
+/* work for hero section 2 cursal image start */
+
+.hero-section-2{
+    height: 250px;
+    width: 97%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.cursal-img{
+    background-image: url(/images/cursal.jpg);
+    background-size: cover;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.side-arrow{
+    height: 110px;
+    width: 50px;
+    background-color: #fff;
+    border-radius: 0px 5px 5px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pre-icon{
+    transform: rotate(90deg);
+    color: #c5c2c2;
+}
+
+.side-arrow-2{
+    height: 110px;
+    width: 50px;
+    background-color: #fff;
+    border-radius: 5px 0px 0px 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.next-icon{
+    transform: rotate(280deg);
+    color: #c5c2c2;
+}
+
+/* work for hero section 2 cursal image end */
+
+/* hero section 3 work start */
+
+.hero-section-3{
+    height: 370px;
+    width: 80%;
+    margin-left: 24px;
+    margin-top: 20px;
+    background-color: #fff;
+    
+    
+}
+/* hero-section-3-right-side-box work start */
+
+.hero-section-3-right-side-box{
+    height: 370px;
+    width: 20%;
+    background-color: #2442DA;
+    position: relative;
+    left: 100%;
+    bottom: 380px;
+    margin-left: 15px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.right-side-img{
+    background-image: url(/images/plan.jpg);
+    background-size: cover;
+    height: 360px;
+    width: 240px;
+}
+
+/* hero-section-3-right-side-box work end */
+
+
+
+.hero-section-3-box1{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    padding-bottom: 10px;
+}
+
+/* .hero-section-3-right-side-box{
+    display: flex;
+} */
+
+.box1-icon{
+    height: 34px;
+    width: 34px;
+    border-radius: 50%;
+    background-color: #2A55E5;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: rotate(280deg);
+     
+    
+}
+
+
+/* cards work start */
+
+
+.cards{
+
+    height: 300px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+   
+
+}
+
+
+
+.card-1{
+
+    height: 250px;
+    width: 220px;
+    /* margin-right: 25px; */
+    border: 1px solid #E0E0E0;
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 30px; 
+   
+}
+
+
+.card-img{
+    background-image: url(/images/one.png);
+    background-size: cover;
+    height: 200px;
+    width: 165px;
+    margin-left: 20px;
+  
+}
+
+.card-img1{
+    background-size: cover;
+    height: 200px;
+    width: 185px;
+    margin-left: 20px;
+}
+
+.card-1 p{
+    font-size: 17px;
+    font-weight: 200;
+    
+}
+
+/* cards work end */
+
+/* hero section 3 work end */
+
+/* hero section 4 work start */
+.hero-section-4{
+
+    height: 370px;
+    width: 97%;
+    margin-left: 24px;
+    margin-top: 20px;
+    background-color: #fff;
+    
+
+}
+
+/* hero section 4 work end */
+
+/* hero section 5 work start */
+
+.hero-section-5{
+
+    height: 645px;
+    width: 35%;
+    margin-left: 24px;
+    margin-top: 20px;
+    background-color: #fff;
+    
+
+}
+
+/* hero-section-3-right-side-box work start */
+
+.hero-section-5-right-side-box{
+    height: 645px;
+    width: 175%;
+    position: relative;
+    left: 100%;
+    bottom: 380px;
+    margin-left: 15px;
+    display: flex;
+    align-items:center;
+}
+
+ .right-side-5-img{
+    background-image: url(/images/mobile\ banner.jpg);
+    background-size: cover;
+    height: 650px;
+    width: 1000px;
+} 
+
+/* hero-section-3-right-side-box work end */
+
+.cards-40{
+    height: 300px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.card-5{
+    height: 250px;
+    width: 220px;
+    border: 1px solid #E0E0E0;
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* hero section 5 work end */
+
+/* hero section 6 work start */
+
+
+/* hero section 6 work end */
+
+.hero-section-6-main{
+    height: 670px;
+    width: 98%;
+    /* background-color: #2A55E5; */
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.hero-section-6{
+    height: 645px;
+    width: 37%;
+    margin-left: 20px;
+    margin-top: 20px;
+    background-color: #fff;
+}
+
+
+
+.f-footer{
+    height: 400px;
+    background-color: #111112;
+    color: #fff;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px;
+}
+
+
+
+.f-heading{
+    color: #696869;
+    font-size: 17px;
+}
+
+.f-footer-content ul{
+    text-decoration: none;
+    list-style: none;
+    margin-top: 20px;
+    line-height: 20px;
+}
+
+.f-socail2{
+    margin-top: 20px;
+    color: #696869;
+}
+
+.mail-icons{
+    margin-top: 20px;  
+}
+
+.mail-icons i{
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+.f-footer-section-2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #111112;
+}
+
+
+.section-2-icons{
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+
+.section-2-icons i{
+    color: #F1CE34;
+    font-size: 10px;
+    margin-right: 20px;
+}
+
+.f-section-2-img{
+    background-size: cover;
+    height: 120px;
+    width: 600px;
+    margin-top: 5px;
+}
+
+hr{
+    color: #696869;
+}
+
+/* images ka kam he jis images per size ka masla tha jo alag se downlod ki he */
+
+.images-size-etc{
+    width: 199px;
+    position: relative;
+    right: 8px;
+    top: 2px;
+}
+
+
